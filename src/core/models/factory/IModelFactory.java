@@ -1,11 +1,15 @@
-package core.models.factory;
+package core.models.factory; 
 
 /**
  * Fábrica genérica para crear modelos
  * Fabrica generica 
  */
-public interface IModelFactory<T, R> {
 
-    T create(R data);
+public interface ImodelFActory<T, R> {
+
+    T create(R data); 
+
 }
+
+
 
